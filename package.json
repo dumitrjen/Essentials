@@ -1,15 +1,25 @@
 {
-  "name": "recipe.api",
+  "name": "essenza.api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon --exec npx babel-node src/server.js"
-  },
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/dumitrjen/Essentials#readme",
+  "bugs": {
+    "url": "https://github.com/dumitrjen/Essentials/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumitrjen/Essentials.git"
+  },
   "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": 
+  {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+,
   "dependencies": {
     "@babel/runtime": "^7.25.6",
     "cors": "^2.8.5",
