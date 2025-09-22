@@ -10,7 +10,7 @@ app.get('/recipes', (req, res) => {
 })
 
 // GET recipes/id
-app.get('/recipes/:id', (req, res) => {
+app.get('/recipes/:id', (req, res) => {git push -u origin main
     const id = req.params.id
     const recipe = recipes.find((recipe) => recipe.id === id)
     if(!recipe) 
